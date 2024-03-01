@@ -187,7 +187,7 @@ nav {
 
 .header__container h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: var(--header-font);
   line-height: 3rem;
@@ -577,6 +577,16 @@ nav {
 }
 
 @media (width > 480px) {
+
+  .header__container h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--header-font);
+    line-height: 3rem;
+    color: var(--white);
+  }
+  
   .banner__grid {
     grid-auto-rows: 280px;
     grid-template-columns: repeat(2, 1fr);
