@@ -7,7 +7,8 @@
   --text-dark: #1e2022;
   --text-light: #767268;
   --extra-light: #f3f4f6;
-  --white: #f1c40f;
+  --yellow: #f1c40f;
+  --white: #fff;
   --max-width: 1200px;
   --header-font: "Nunito", sans-serif;
   background-color: #1e2022;
@@ -72,7 +73,7 @@
   padding: 1rem 1.5rem;
   outline: none;
   border: none;
-  color: var(--white);
+  color: var(--yellow);
   background-color: var(--primary-color);
   border-radius: 5px;
   transition: 0.3s;
@@ -138,7 +139,7 @@ nav {
 
 .nav__menu__btn {
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--yellow);
   cursor: pointer;
 }
 
@@ -171,7 +172,7 @@ nav {
   position: relative;
   isolation: isolate;
   padding-bottom: 8px;
-  color: var(--white);
+  color: var(--yellow);
   transition: 0.3s;
 }
 
@@ -187,11 +188,11 @@ nav {
 
 .header__container h1 {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: var(--header-font);
-  line-height: 3rem;
-  color: var(--white);
+  line-height: 2rem;
+  color: var(--yellow);
 }
 
 .banner__grid {
@@ -212,7 +213,7 @@ nav {
   font-size: 2rem;
   font-weight: 400;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--yellow);
   text-align: center;
 }
 
@@ -264,7 +265,7 @@ nav {
   place-content: center;
   font-size: 1.2rem;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--yellow);
   text-align: center;
   background-color: var(--primary-color);
 }
@@ -313,11 +314,11 @@ nav {
 }
 
 .feature__container .section__header {
-  color: var(--white);
+  color: var(--yellow);
   background-color: transparent;
 }
 .section__title{
-  color: var(--white);
+  color: var(--yellow);
 }
 
 .feature__grid {
@@ -335,7 +336,7 @@ nav {
   padding: 2rem;
   font-size: 1.1rem;
   color: var(--primary-color);
-  background-color: var(--white);
+  background-color: var(--yellow);
   z-index: 1;
 }
 
@@ -411,7 +412,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 400;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--yellow);
 }
 
 .blog__content p {
@@ -451,7 +452,7 @@ nav {
 .footer {
   overflow: hidden;
   background-color: var(--primary-color);
-  border-bottom: 10px solid var(--white);
+  border-bottom: 10px solid var(--yellow);
 }
 
 .footer__container {
@@ -479,13 +480,13 @@ nav {
   padding: 5px 10px;
   font-size: 1.25rem;
   color: var(--text-dark);
-  background-color: var(--white);
+  background-color: var(--yellow);
   border-radius: 100%;
   transition: 0.3s;
 }
 
 .footer__socials a:hover {
-  color: var(--white);
+  color: var(--yellow);
   background-color: var(--text-light);
 }
 
@@ -500,7 +501,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 400;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--yellow);
 }
 
 .footer__col p {
@@ -537,7 +538,7 @@ nav {
 
 .footer__col .btn:hover {
   color: var(--primary-color);
-  background-color: var(--white);
+  background-color: var(--yellow);
 }
 
 .footer__bar__link {
@@ -560,7 +561,7 @@ nav {
   width: 125%;
   height: 125%;
   rotate: 45deg;
-  background-color: var(--white);
+  background-color: var(--yellow);
   z-index: -1;
 }
 
@@ -584,7 +585,7 @@ nav {
     font-weight: 400;
     font-family: var(--header-font);
     line-height: 3rem;
-    color: var(--white);
+    color: var(--yellow);
   }
   
   .banner__grid {
